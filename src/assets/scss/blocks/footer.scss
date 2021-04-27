@@ -1,0 +1,90 @@
+.footer {
+background:#19191afd;
+color:white;
+padding-top: 50px;
+padding-bottom: 10px;
+margin-top: 100px;
+    &__row {
+    }
+
+    &__item {
+    }
+
+    &__body {
+        display: flex;
+        justify-content: space-between;
+        border-bottom:1px solid silver;
+        padding-bottom: 10px;
+    }
+
+    &__block {
+    }
+    &__block:nth-child(2) {
+        margin-top: 100px;
+        p {
+            font-size: 15px;
+            margin: 10px 0;
+            opacity: 0.8;
+        }
+    }
+
+    &__logo {
+    }
+
+    &__nav {
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+    }
+
+    &__title {
+        font-size: 30px;
+        font-weight: 600;
+    }
+
+    &__link {
+        margin-top: 20px;
+        color:white;
+        // text-align: center;
+        font-size: 18px;
+        opacity: 0.8;
+        transition: 0.3s;
+        &:hover {
+            opacity: 1;
+        }
+    }
+
+    &__icon {
+        font-size: 20px;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    &__bottom {
+        padding-top: 10px;
+        opacity: 0.8;
+    }
+}
+.fa-instagram {
+    margin-right: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+    &:hover {
+        color:$colorpup;
+    }
+}
+.fa-vk {
+    margin-right: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+    &:hover {
+        color:$colorpup;
+    }
+}
+.fa-twitter {
+    cursor: pointer;
+    transition: 0.3s;
+    &:hover {
+        color:$colorpup;
+    }
+}

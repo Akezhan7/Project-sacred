@@ -1,0 +1,65 @@
+.ev {
+padding-top: 150px;
+    &__row {
+    }
+
+    &__item {
+    }
+}
+.container {
+}
+.title {
+}
+.ev-block {
+
+    &__title {
+        font-size: 30px;
+        font-weight: 600;
+        margin-top: 20px;
+    }
+
+    &__text {
+        font-size: 20px;
+        P {
+            margin: 20px 0;
+        }
+    }
+
+    &__logo {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-end;
+        margin-top: 50px;
+    }
+}
+.ev-body {
+}
+.ev-block__logs {
+    width: 500px;
+    height: 300px;
+}
+.evblock__avtor {
+    color: #2b2b2bfd;
+    font-style: italic;
+}
+.ev-nav {
+    margin-top: 50px;
+display: flex;
+justify-content: center;
+    &__link {
+    }
+}
+.fa {
+}
+.fa-arrow-left {
+    font-size: 30px;
+    margin-right: 50px;
+    cursor: pointer;
+}
+.fa-arrow-right {
+    font-size: 30px;
+    cursor: pointer;
+}
+.active-arrow {
+    color:$colorpup;
+}

@@ -1,0 +1,149 @@
+.cart {
+padding-top: 100px;
+color:white;
+    &__row {
+    }
+
+    &__item {
+        display: flex;
+        justify-content: center;
+    }
+
+    &__elem1 {
+        top: 250px;
+        left: 400px;
+        font-size: 20px;
+        text-transform: uppercase;
+        font-weight: 700;
+        color: white;
+        transition: all 0.3s ease-in-out 0s;
+        cursor: pointer;
+        position: absolute;
+            &::after {
+              content: '';
+              width: 30px; height: 30px;
+              border-radius: 100%;
+              border: 6px solid $colorpup;
+              position: absolute;
+              z-index: 20;
+              top: 50%;
+              left: 50%;
+              transform: translate(-50%, -50%);
+              animation: ring1 1.5s infinite;
+            }
+            
+           &:hover {
+               color:$colorpup;
+           }
+    
+    }
+    &__elem2 {
+        top: 340px;
+        left: 100px;
+        max-width: 100px;
+        font-size: 15px;
+        text-transform: uppercase;
+        font-weight: 700;
+        color: white;
+        transition: all 0.3s ease-in-out 0s;
+        cursor: pointer;
+        position: absolute;
+            &::after {
+              content: '';
+              width: 30px; height: 30px;
+              border-radius: 100%;
+              border: 6px solid $colorpup;
+              position: absolute;
+              z-index: 200;
+              top: 50%;
+              left: 50%;
+              transform: translate(-50%, -50%);
+              animation: ring1 1.5s infinite;
+            }
+            
+           &:hover {
+               color:$colorpup;
+           }
+    }
+
+    &__elem3 {
+        top: 380px;
+        left: 420px;
+        font-size: 17px;
+        max-width: 100px;
+        text-transform: uppercase;
+        font-weight: 700;
+        color: white;
+        transition: all 0.3s ease-in-out 0s;
+        cursor: pointer;
+        position: absolute;
+            &::after {
+              content: '';
+              width: 30px; height: 30px;
+              border-radius: 100%;
+              border: 6px solid $colorpup;
+              position: absolute;
+              z-index: 200;
+              top: 50%;
+              left: 50%;
+              transform: translate(-50%, -50%);
+              animation: ring1 1.5s infinite;
+            }
+            
+           &:hover {
+               color:$colorpup;
+           }
+    }
+
+    &__elem4 {
+        top: 340px;
+        left: 530px;
+        font-size: 17px;
+        max-width: 100px;
+        text-transform: uppercase;
+        font-weight: 700;
+        color: white;
+        transition: all 0.3s ease-in-out 0s;
+        cursor: pointer;
+        position: absolute;
+            &::after {
+              content: '';
+              width: 30px; height: 30px;
+              border-radius: 100%;
+              border: 6px solid $colorpup;
+              position: absolute;
+              z-index: 200;
+              top: 50%;
+              left: 50%;
+              transform: translate(-50%, -50%);
+              animation: ring1 1.5s infinite;
+            }
+            
+           &:hover {
+               color:$colorpup;
+           }
+    }
+
+
+    &__block {
+        background: url('/assets/images/cart/Group_3_page-0001-removebg-preview.png') no-repeat;
+        width: 840px;
+        height: 480px;
+        background-size: cover;
+        position: relative;
+    }
+}
+.container {
+}
+@keyframes ring1 {
+    0% {
+      width: 10px;
+      height: 10px;
+      opacity: 1;
+    }
+    100% {
+      width: 170px;
+      height: 170px;
+      opacity: 0;
+    }
+} 

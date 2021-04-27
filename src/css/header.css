@@ -1,0 +1,85 @@
+.container {
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+.header {
+  padding-top: 20px;
+  position: fixed;
+  z-index: 100;
+  width: 100%;
+  -webkit-transition: all 0.9s;
+  transition: all 0.9s;
+}
+
+.header__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.header__logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+}
+
+.header__logo a {
+  margin: 0 50px;
+}
+
+.header__log {
+  background: url("/assets/images/logo/White.png") no-repeat;
+  width: 100px;
+  height: 100px;
+  display: block;
+  background-size: contain;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.header__log:hover {
+  background: url("/assets/images/logo/Union.png") no-repeat;
+  width: 100px;
+  height: 100px;
+  display: block;
+  background-size: contain;
+}
+
+.header__link {
+  color: white;
+  font-size: 18px;
+  margin-right: 20px;
+  font-weight: 600;
+  padding-bottom: 5px;
+}
+
+.header__link:hover {
+  color: #4e09e3;
+  border-bottom: 5px solid #4e09e3;
+}
+
+.active-link {
+  color: #4e09e3;
+  font-weight: 700;
+  border-bottom: 5px solid #4e09e3;
+}
+
+.lang {
+  font-size: 18px;
+  font-weight: 600;
+  color: white;
+}

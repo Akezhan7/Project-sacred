@@ -1,0 +1,63 @@
+@import 'container.scss';
+@import 'vars.scss';
+.header {
+    padding-top: 20px;
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+    transition: all 0.9s;
+    &__row {
+    }
+
+    &__item {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .header-navs {
+        display: flex;
+        transition: all 0.5s;
+    }
+
+    &__logo {
+        // width: 100%;
+        a {
+            margin: 0 50px;
+        }
+    }
+    &__log {
+        background:url('/assets/images/logo/AS-black.png') no-repeat;
+        width: 100px;
+        height: 100px;
+        display: block;
+        background-size: contain;
+        transition: 0.5s;
+        &:hover {
+            background:url('/assets/images/logo/Union.png') no-repeat;
+            width: 100px;
+            height: 100px;
+            display: block;
+            background-size: contain;
+        }
+    }
+
+    &__link {
+        color:black;
+        font-size: 18px;
+        margin-right: 20px;
+        font-weight: 600;
+        &:hover {
+            color:$colorpup;
+        }
+    }
+}
+.active-link {
+    color:$colorpup;
+    font-weight: 700;
+    border-bottom: 5px solid $colorpup;
+}
+.lang {
+    font-size: 18px;
+    font-weight: 600;
+    color:black;
+}

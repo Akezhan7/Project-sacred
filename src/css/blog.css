@@ -1,0 +1,77 @@
+.blog {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.blog__item {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+.blog__field {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-transition: all 2s;
+  transition: all 2s;
+}
+
+.blog__block {
+  width: 1000px;
+  height: 300px;
+}
+
+.blog__block:nth-child(1) {
+  background: url("/assets/images/bg/421770-INNERRESIZED600-600-turkestan_foto_2.jpg");
+  background-size: cover;
+}
+
+.blog__block:nth-child(2) {
+  background: url("/assets/images/five/1540376344_6565bc2d319644ede1aae96ead57d02e.jpg");
+  background-size: cover;
+}
+
+.blog__block:nth-child(3) {
+  background: url("/assets/images/five/1540377350_739378_1504431591_940_498_0.png");
+  background-size: cover;
+}
+
+.blog__block:nth-child(4) {
+  background: url("/assets/images/bg/bg1.png");
+  background-size: cover;
+}
+
+.blog__block:nth-child(5) {
+  background: url("/assets/images/five/1540377726_img_7736_1200.jpg");
+  background-size: cover;
+}
+
+.blog__block:nth-child(6) {
+  background: url("/assets/images/five/1540377889_31d2bec5ac05c46724900197817a64c6.jpg");
+  background-size: cover;
+}
+
+.blog__block:nth-child(7) {
+  background: url("/assets/images/bg/1528709514_977969_1504013314_350_200_0.jpg");
+  background-size: cover;
+}
+
+.blog__block:nth-child(8) {
+  background: url("/assets/images/bg/original.jpg");
+  background-size: cover;
+}
+
+.blog__block:nth-child(9) {
+  background: url("/assets/images/bg/1528709648_btkp20ol6c2c899sp9lp3zfm4ncpup.jpg");
+  background-size: cover;
+}
+
+.blog__block:nth-child(10) {
+  background: url("/assets/images/bg/dca4a3fc6576f64892fad1fcfb1711f2_crop_l_24_t_15_w_1307_h_735.jpg");
+  background-size: cover;
+}

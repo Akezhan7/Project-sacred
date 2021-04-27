@@ -1,0 +1,59 @@
+.five {
+margin-top: 100px;
+background:url('/assets/images/');
+    &__row {
+    }
+
+    &__item {
+    }
+
+    &__title {
+        font-size: 20px;
+        margin-bottom: 30px;
+        line-height: 24px;
+    }
+}
+.container {
+}
+.title {
+}
+.five-block {
+display: flex;
+justify-content: space-between;
+width: 100%;
+align-items: center;
+    &__title {
+        font-size: 30px;
+        margin-top: 30px;
+        max-width: 500px;
+        font-weight: 700;
+        color:$colorpup;
+        line-height: 35px;
+    }
+
+    &__subtitle {
+        font-size: 17px;
+        margin-top: 20px;
+        max-width: 500px;
+        line-height: 17px;
+    }
+}
+.five-body {
+    &:nth-child(2) {
+        text-align: right;
+        
+    }
+}
+.five-logo {
+    overflow: hidden;
+    box-shadow: 0 0 20px black;
+    img {
+        width: 650px;
+        height: 400px;
+        
+        transition: 2s;
+        &:hover {
+            transform: scale(1.2)
+        }
+    }
+}

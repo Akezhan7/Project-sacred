@@ -1,0 +1,23 @@
+%faitem {
+    cursor:pointer;
+    &:hover {
+        color:#0750D0;
+    }
+}
+%bgplaces {
+    width: 500px;
+    height: 300px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+$colorblue: rgba(16,40,214,1);
+$colorpup: #4e09e3;
+$colorpup2: #9b02faf8;
+
+%genlogo {
+    width: 100%;
+    height: 100vh;
+}

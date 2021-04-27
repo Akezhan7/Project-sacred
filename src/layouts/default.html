@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {{> head }}
+</head>
+<body>
+
+    <div class="gen">
+        {{> header }}
+        {{> main }}
+        <div class="scar-info wow fadeInLeft">
+            <div class="container">
+                <div class="scar-info__item">
+                    <div class="title">Сакральные места</div>
+                    <p class="scar-info__subtitle">Сакральные места - это почитаемые среди населения страны памятники культурного наследия, светской и религиозной архитектуры мавзолей и природные ландшафты, кроме того, места с устойчивыми историческими ценностями связанные со значимыми политическими событиями. Объекты, занимающие важное место в общественно – политической жизни Казахстана, как символы историко-культурного наследия и национального единства.</p>
+                </div>
+            </div> 
+            </div>
+        </div>
+        <div class="bg-blue">s
+            {{> places }}
+            {{> cart }}
+            {{> five }}
+            {{> blog }}
+            {{> news }}
+        </div>
+        {{> footer }}
+    </div>
+   
+
+    <script defer src="assets/js/app.js"></script>
+    <script src="assets/js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+</body>
+</html>
